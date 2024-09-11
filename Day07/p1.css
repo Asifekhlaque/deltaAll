@@ -1,0 +1,28 @@
+.traffic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 500px;
+    border: 4px double black;
+    gap: 10px;
+}
+.traffic :first-child{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius:50% ;
+}
+.traffic :nth-child(2){
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius:50% ;
+}
+.traffic :last-child{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius:50% ;
+}
